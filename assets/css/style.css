@@ -595,7 +595,7 @@ p {
   position: absolute;
   left: 0;
   background: #222222;
-  width: 200px;
+  width: 300px;
   top: 120%;
   opacity: 0;
   visibility: hidden;
@@ -1103,12 +1103,12 @@ aside,
 
 .bannerArea__image {
   position: absolute;
-  bottom: -400px;
+  bottom: -363px;
   left: 100px;
 }
 
 .bannerArea__image img {
-  max-width: 65%;
+  max-width: 100%;
 }
 
 .bannerArea .mask-group img {
@@ -1571,7 +1571,7 @@ aside,
 /*----------------------------------------*/
 @media (min-width: 1201px) and (max-width: 1850px) {
   .bannerArea {
-    padding: 60px 0px;
+    padding: 20px 50px;
   }
 
   .bannerArea__image {
@@ -1579,7 +1579,7 @@ aside,
   }
 
   .bannerArea__image img {
-    max-width: 100%;
+    max-width: 85%;
   }
 
   .bannerArea__title {
@@ -3421,6 +3421,15 @@ aside,
 /*----------------------------------------*/
 /*  HOMEPAGE 01
 /*----------------------------------------*/
+.service-details {
+  padding: 0% 5% 20% 5%;
+}
+
+.container.service-banner {
+  height: 300px;
+  align-content: center;
+}
+
 .special-services {
   position: relative;
   padding-bottom: 75px;
